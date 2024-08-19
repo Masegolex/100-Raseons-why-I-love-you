@@ -27,6 +27,17 @@ h1 {
   background-color: #fff5f8;
   border-radius: 10px;
   font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cute-image-1 {
+  width: 200px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .buttons button {
